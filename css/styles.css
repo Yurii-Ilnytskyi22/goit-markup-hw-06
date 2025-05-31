@@ -10,7 +10,10 @@ body {
     color: #434455;
     background: #fff;
     margin: 0;
+    font-size: 14px;
+    padding: 16px;
 }
+
 
 body.modal-open {
     overflow: hidden;
@@ -233,6 +236,8 @@ img {
 
 /* #endregion hero */
 
+
+
 /* #region features */
 
 .features-section {
@@ -261,7 +266,6 @@ img {
 }
 
 .feature-title {
-    font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
