@@ -53,7 +53,7 @@ img {
 
 
 @media (min-width: 768px) and (max-width: 1157px) {
-    .team-list {
+    .body {
         gap: 24px;
         flex-direction: row;
         flex-wrap: wrap;
@@ -383,12 +383,7 @@ img {
     
 }
 
-@media (min-width: 768px) {
-    .team-list {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-}
+
 
 .team-subtitle {
     font-weight: 500;
@@ -439,7 +434,12 @@ img {
         flex-wrap: wrap;
     }
 }
-
+@media (min-width: 768px) {
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
 
 .social-link:hover,
 .social-link:focus {
