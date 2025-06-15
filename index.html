@@ -18,7 +18,7 @@
 
 <body>
 
-<!-- <header class="header">
+<header class="header">
    <div class="container header-container"> 
    <nav class="main-nav">
 
@@ -43,9 +43,72 @@
     </li>
     </ul>
     </address>
+    <button class="btn-open-menu" type="button">
+        <svg width="24" height="24" class="menu-icon">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+        </svg>
+    </button>
     </div>
     
-</header> -->
+    <div class="mob-menu">
+        <div>
+        <button class="btn-close-menu" type="button">
+            <svg width="8" height="8" class="close-menu-icon">
+                <use href="./images/icons.svg#icon-closesvg"></use>
+            </svg>
+        </button>
+        <nav class="mob-menu-nav">
+        <ul class="menu-mobail">
+                <li><a href="./index.html" class="mob-menu-nav-link ac-current">Studio</a></li>
+                <li><a href="" class="mob-menu-nav-link">Portfolio</a></li>
+                <li><a href="" class="mob-menu-nav-link">Contacts</a></li>
+        </ul>
+        </nav>
+        </div>
+        <div>
+        <address class="mob-menu-address-info">
+            <ul class="mob-menu-contact-list">
+                <li class="mob-contact">
+                    <a href="mailto:info@devstudio.com" class="mob-menu-contact-link">info@devstudio.com</a>
+                </li>
+                <li class="mob-contact">
+                    <a href="tel:+110001111111" class="mob-menu-contact-link">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+            </address>
+            <ul class="mob-menu-social-list">
+                <li class="mob-menu-social-item">
+                    <a href="#icon-instagram" class="mob-menu-social-link" aria-label="Instagram">
+                        <svg class="social-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#icon-twitter" class="mob-menu-social-link" aria-label="Twitter">
+                        <svg class="social-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="icon-facebook" class="mob-menu-social-link" aria-label="Facebook">
+                        <svg class="social-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#icon-linkedin" class="mob-menu-social-link" aria-label="LinkedIn">
+                        <svg class="social-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+                </ul> 
+                </div>
+    </div>
+</header>
 <main>
   <section class="hero-section">
     <div class="container hero-container">
@@ -368,8 +431,9 @@
 </section>
 </main>
 
-<!-- <footer class="footer">
+<footer class="footer">
     <div class="container footer-inner">
+    <div class="dis-one">
     <div class="footer-container">
     <a href="./index.html" class="footer-logo">
         Web<span class="footer-logo-span">Studio</span></a>
@@ -407,7 +471,8 @@
                 </a>
             </li>
         </ul>
-    </div>
+    </div></div>
+    <div>
     <div class="form-container">
         <p class="text-subscribe">Subscribe</p>
         <form class="form-subscribe">
@@ -427,11 +492,12 @@
           </button>
         </form>
       </div>
+    </div>
 
     
 
     </div>
-</footer> -->
+</footer>
 
 
 <div class="modal-overlay">
